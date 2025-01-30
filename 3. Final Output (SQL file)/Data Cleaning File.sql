@@ -6,7 +6,7 @@ SET SQL_SAFE_UPDATES = 0;
 SELECT * FROM layoffs;
 
 /*
-	1. Remove Duplicates
+    1. Remove Duplicates
     2. Standardize the Data (spell-checking, etc)
     3. NULL/Blank Values
     4. Remove Unnecessary Columns (very risky to delete columns)
@@ -138,7 +138,7 @@ WHERE percentage_laid_off IS NULL AND total_laid_off IS NULL;
 ALTER TABLE layoffs_dup2
 DROP COLUMN row_num;
 
-
+------------------------------------------------------------------------------------------
 
 
 
